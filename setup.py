@@ -3,6 +3,8 @@ import time
 import requests
 import os
 
+time.sleep(40)
+
 # Define actions with coordinates and duration
 actions = [
     (516, 405, 4),  # install (wait 15sec)
