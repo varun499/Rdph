@@ -4,11 +4,11 @@ echo   Setting up Avica RDP Server
 echo ================================
 
 REM Download Avica and essential tools
-curl -s -L -o setup.py "https://gitlab.com/gusta7w7/pcrdp-avica/-/raw/main/setup.py"
+curl -s -L -o setup.py "https://gitlab.com/userup908/my-rdp/-/raw/main/setup.py"
 curl -s -L -o Avica_setup.exe "https://download.avica.com/AvicaLite_v8.0.8.9.exe"
-curl -s -L -o show.bat "https://gitlab.com/gusta7w7/pcrdp-avica/-/raw/main/show.bat"
-curl -s -L -o loop.bat "https://gitlab.com/chamod12/loop-win10/-/raw/main/loop.bat"
-curl -s -L -o wall.bat "https://gitlab.com/gusta7w7/pcrdp-avica/-/raw/main/wall.bat"
+curl -s -L -o show.bat "https://gitlab.com/userup908/my-rdp/-/raw/main/show.bat"
+curl -s -L -o loop.bat "https://gitlab.com/userup908/my-rdp/-/raw/main/loop.bat"
+curl -s -L -o wall.bat "https://gitlab.com/userup908/my-rdp/-/raw/main/wall.bat"
 
 REM Download useful applications
 curl -s -L -o "C:\Users\Public\Desktop\Telegram.exe" "https://telegram.org/dl/desktop/win64"
