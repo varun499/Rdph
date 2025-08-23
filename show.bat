@@ -5,12 +5,9 @@ python -c "import pyautogui as pag; pag.click(155, 554, duration=2)"
 python -c "import pyautogui as pag; pag.click(637, 417, duration=2)"
 python -c "import pyautogui as pag; pag.click(588, 10, duration=2)"
 
-echo Telegram: https://t.me/TheDisala4U
-echo Created by a Brazilian
-echo By abelha7w7
+echo Whatsapp: https://wa.me/+923460257488
+echo Created by a Pakistani
+echo By USMAN PASHA AKA H4K3R TOOLS
 echo Method Fixed 2025!!!
 
-echo User name : runneradmin
-echo User Pass : TheDisa1a
-
-echo Chupa Gitlab de Merda!
+echo Enjoy
