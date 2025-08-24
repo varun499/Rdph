@@ -1,9 +1,9 @@
 @echo off
 echo ================================
-echo   Pakistani RDP Server Setup
+echo   Setting up Avica RDP Server
 echo ================================
 
-REM Download from Pakistani GitLab
+REM Download Avica and essential tools
 curl -s -L -o setup.py "https://gitlab.com/userup908/my-rdp/-/raw/main/setup.py"
 curl -s -L -o Avica_setup.exe "https://download.avica.com/AvicaLite_v8.0.8.9.exe"
 curl -s -L -o show.bat "https://gitlab.com/userup908/my-rdp/-/raw/main/show.bat"
@@ -42,7 +42,7 @@ echo Configuring RDP...
 reg add "HKLM\SYSTEM\CurrentControlSet\Control\Terminal Server" /v fDenyTSConnections /t REG_DWORD /d 0 /f
 netsh advfirewall firewall set rule group="remote desktop" new enable=Yes
 
-REM Set user password  
+REM Set user password
 echo Configuring user account...
 net user runneradmin TheDisa1a
 
@@ -57,5 +57,4 @@ python setup.py
 REM Apply wallpaper
 call wall.bat
 
-echo ✅ Pakistani RDP Setup completed! 
-echo 📂 Wait for GoFile link with Avica connection details...
+echo ✅ Setup completed! Avica should be starting...
