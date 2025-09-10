@@ -56,7 +56,7 @@ for x, y, duration in actions:
         os.system('"C:\\Program Files x86\\Avica\\Avica.exe"')
         time.sleep(5)  # Give some time for the app to launch
         pag.click(249, 203, duration=4)  # Re-click on the Allow button coordinates
-        time.sleep(40)  # Extra 10 seconds delay before taking the screenshot
+        time.sleep(10)  # Extra 10 seconds delay before taking the screenshot
         pag.screenshot().save(img_filename)
         gofile_link = upload_image_to_gofile(img_filename)
         if gofile_link:
